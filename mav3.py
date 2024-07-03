@@ -135,10 +135,12 @@ def main():
 
     except KeyboardInterrupt:
         print("程序已结束")
+	print("程序已结束2")
     finally:
         # 关闭连接
         client_socket.close()
 
 if __name__ == "__main__":
     main()
+
 #test
