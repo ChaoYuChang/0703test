@@ -1,4 +1,4 @@
-/proc/device-tree
+.
 ├── aconnect@2a41000
 │   ├── #address-cells
 │   ├── adma@2930000
@@ -3530,9 +3530,7 @@
 │   ├── compatible
 │   ├── i2c@0
 │   │   ├── #address-cells
-│   │   ├── name
-│   │   ├── phandle
-│   │   ├── rbpcv2_imx219_a@10
+│   │   ├── ap_cam_a@1f
 │   │   │   ├── compatible
 │   │   │   ├── devnode
 │   │   │   ├── mode0
@@ -3540,15 +3538,9 @@
 │   │   │   │   ├── active_w
 │   │   │   │   ├── cil_settletime
 │   │   │   │   ├── csi_pixel_bit_depth
-│   │   │   │   ├── default_exp_time
-│   │   │   │   ├── default_framerate
-│   │   │   │   ├── default_gain
 │   │   │   │   ├── discontinuous_clk
 │   │   │   │   ├── dpcm_enable
 │   │   │   │   ├── embedded_metadata_height
-│   │   │   │   ├── exposure_factor
-│   │   │   │   ├── framerate_factor
-│   │   │   │   ├── gain_factor
 │   │   │   │   ├── inherent_gain
 │   │   │   │   ├── lane_polarity
 │   │   │   │   ├── line_length
@@ -3569,24 +3561,15 @@
 │   │   │   │   ├── pix_clk_hz
 │   │   │   │   ├── pixel_phase
 │   │   │   │   ├── readout_orientation
-│   │   │   │   ├── step_exp_time
-│   │   │   │   ├── step_framerate
-│   │   │   │   ├── step_gain_val
 │   │   │   │   └── tegra_sinterface
 │   │   │   ├── mode1
 │   │   │   │   ├── active_h
 │   │   │   │   ├── active_w
 │   │   │   │   ├── cil_settletime
 │   │   │   │   ├── csi_pixel_bit_depth
-│   │   │   │   ├── default_exp_time
-│   │   │   │   ├── default_framerate
-│   │   │   │   ├── default_gain
 │   │   │   │   ├── discontinuous_clk
 │   │   │   │   ├── dpcm_enable
 │   │   │   │   ├── embedded_metadata_height
-│   │   │   │   ├── exposure_factor
-│   │   │   │   ├── framerate_factor
-│   │   │   │   ├── gain_factor
 │   │   │   │   ├── inherent_gain
 │   │   │   │   ├── lane_polarity
 │   │   │   │   ├── line_length
@@ -3607,24 +3590,15 @@
 │   │   │   │   ├── pix_clk_hz
 │   │   │   │   ├── pixel_phase
 │   │   │   │   ├── readout_orientation
-│   │   │   │   ├── step_exp_time
-│   │   │   │   ├── step_framerate
-│   │   │   │   ├── step_gain_val
 │   │   │   │   └── tegra_sinterface
 │   │   │   ├── mode2
 │   │   │   │   ├── active_h
 │   │   │   │   ├── active_w
 │   │   │   │   ├── cil_settletime
 │   │   │   │   ├── csi_pixel_bit_depth
-│   │   │   │   ├── default_exp_time
-│   │   │   │   ├── default_framerate
-│   │   │   │   ├── default_gain
 │   │   │   │   ├── discontinuous_clk
 │   │   │   │   ├── dpcm_enable
 │   │   │   │   ├── embedded_metadata_height
-│   │   │   │   ├── exposure_factor
-│   │   │   │   ├── framerate_factor
-│   │   │   │   ├── gain_factor
 │   │   │   │   ├── inherent_gain
 │   │   │   │   ├── lane_polarity
 │   │   │   │   ├── line_length
@@ -3645,24 +3619,15 @@
 │   │   │   │   ├── pix_clk_hz
 │   │   │   │   ├── pixel_phase
 │   │   │   │   ├── readout_orientation
-│   │   │   │   ├── step_exp_time
-│   │   │   │   ├── step_framerate
-│   │   │   │   ├── step_gain_val
 │   │   │   │   └── tegra_sinterface
 │   │   │   ├── mode3
 │   │   │   │   ├── active_h
 │   │   │   │   ├── active_w
 │   │   │   │   ├── cil_settletime
 │   │   │   │   ├── csi_pixel_bit_depth
-│   │   │   │   ├── default_exp_time
-│   │   │   │   ├── default_framerate
-│   │   │   │   ├── default_gain
 │   │   │   │   ├── discontinuous_clk
 │   │   │   │   ├── dpcm_enable
 │   │   │   │   ├── embedded_metadata_height
-│   │   │   │   ├── exposure_factor
-│   │   │   │   ├── framerate_factor
-│   │   │   │   ├── gain_factor
 │   │   │   │   ├── inherent_gain
 │   │   │   │   ├── lane_polarity
 │   │   │   │   ├── line_length
@@ -3683,24 +3648,15 @@
 │   │   │   │   ├── pix_clk_hz
 │   │   │   │   ├── pixel_phase
 │   │   │   │   ├── readout_orientation
-│   │   │   │   ├── step_exp_time
-│   │   │   │   ├── step_framerate
-│   │   │   │   ├── step_gain_val
 │   │   │   │   └── tegra_sinterface
 │   │   │   ├── mode4
 │   │   │   │   ├── active_h
 │   │   │   │   ├── active_w
 │   │   │   │   ├── cil_settletime
 │   │   │   │   ├── csi_pixel_bit_depth
-│   │   │   │   ├── default_exp_time
-│   │   │   │   ├── default_framerate
-│   │   │   │   ├── default_gain
 │   │   │   │   ├── discontinuous_clk
 │   │   │   │   ├── dpcm_enable
 │   │   │   │   ├── embedded_metadata_height
-│   │   │   │   ├── exposure_factor
-│   │   │   │   ├── framerate_factor
-│   │   │   │   ├── gain_factor
 │   │   │   │   ├── inherent_gain
 │   │   │   │   ├── lane_polarity
 │   │   │   │   ├── line_length
@@ -3721,12 +3677,37 @@
 │   │   │   │   ├── pix_clk_hz
 │   │   │   │   ├── pixel_phase
 │   │   │   │   ├── readout_orientation
-│   │   │   │   ├── step_exp_time
-│   │   │   │   ├── step_framerate
-│   │   │   │   ├── step_gain_val
+│   │   │   │   └── tegra_sinterface
+│   │   │   ├── mode5
+│   │   │   │   ├── active_h
+│   │   │   │   ├── active_w
+│   │   │   │   ├── cil_settletime
+│   │   │   │   ├── csi_pixel_bit_depth
+│   │   │   │   ├── discontinuous_clk
+│   │   │   │   ├── dpcm_enable
+│   │   │   │   ├── embedded_metadata_height
+│   │   │   │   ├── inherent_gain
+│   │   │   │   ├── lane_polarity
+│   │   │   │   ├── line_length
+│   │   │   │   ├── max_exp_time
+│   │   │   │   ├── max_framerate
+│   │   │   │   ├── max_gain_val
+│   │   │   │   ├── max_hdr_ratio
+│   │   │   │   ├── mclk_khz
+│   │   │   │   ├── mclk_multiplier
+│   │   │   │   ├── min_exp_time
+│   │   │   │   ├── min_framerate
+│   │   │   │   ├── min_gain_val
+│   │   │   │   ├── min_hdr_ratio
+│   │   │   │   ├── mode_type
+│   │   │   │   ├── name
+│   │   │   │   ├── num_lanes
+│   │   │   │   ├── phy_mode
+│   │   │   │   ├── pix_clk_hz
+│   │   │   │   ├── pixel_phase
+│   │   │   │   ├── readout_orientation
 │   │   │   │   └── tegra_sinterface
 │   │   │   ├── name
-│   │   │   ├── phandle
 │   │   │   ├── physical_h
 │   │   │   ├── physical_w
 │   │   │   ├── ports
@@ -3742,135 +3723,40 @@
 │   │   │   │   │   ├── name
 │   │   │   │   │   └── reg
 │   │   │   │   └── #size-cells
+│   │   │   ├── post_crop_frame_drop
 │   │   │   ├── reg
 │   │   │   ├── reset-gpios
-│   │   │   ├── sensor_model
+│   │   │   ├── use_decibel_gain
 │   │   │   └── use_sensor_mode_id
-│   │   ├── rbpcv3_imx477_a@1a
-│   │   │   ├── compatible
-│   │   │   ├── devnode
-│   │   │   ├── mode0
-│   │   │   │   ├── active_h
-│   │   │   │   ├── active_w
-│   │   │   │   ├── cil_settletime
-│   │   │   │   ├── csi_pixel_bit_depth
-│   │   │   │   ├── default_exp_time
-│   │   │   │   ├── default_framerate
-│   │   │   │   ├── default_gain
-│   │   │   │   ├── discontinuous_clk
-│   │   │   │   ├── dpcm_enable
-│   │   │   │   ├── embedded_metadata_height
-│   │   │   │   ├── exposure_factor
-│   │   │   │   ├── framerate_factor
-│   │   │   │   ├── gain_factor
-│   │   │   │   ├── inherent_gain
-│   │   │   │   ├── lane_polarity
-│   │   │   │   ├── line_length
-│   │   │   │   ├── max_exp_time
-│   │   │   │   ├── max_framerate
-│   │   │   │   ├── max_gain_val
-│   │   │   │   ├── max_hdr_ratio
-│   │   │   │   ├── mclk_khz
-│   │   │   │   ├── mclk_multiplier
-│   │   │   │   ├── min_exp_time
-│   │   │   │   ├── min_framerate
-│   │   │   │   ├── min_gain_val
-│   │   │   │   ├── min_hdr_ratio
-│   │   │   │   ├── mode_type
-│   │   │   │   ├── name
-│   │   │   │   ├── num_lanes
-│   │   │   │   ├── phy_mode
-│   │   │   │   ├── pix_clk_hz
-│   │   │   │   ├── pixel_phase
-│   │   │   │   ├── readout_orientation
-│   │   │   │   ├── step_exp_time
-│   │   │   │   ├── step_framerate
-│   │   │   │   ├── step_gain_val
-│   │   │   │   └── tegra_sinterface
-│   │   │   ├── mode1
-│   │   │   │   ├── active_h
-│   │   │   │   ├── active_w
-│   │   │   │   ├── cil_settletime
-│   │   │   │   ├── csi_pixel_bit_depth
-│   │   │   │   ├── default_exp_time
-│   │   │   │   ├── default_framerate
-│   │   │   │   ├── default_gain
-│   │   │   │   ├── discontinuous_clk
-│   │   │   │   ├── dpcm_enable
-│   │   │   │   ├── embedded_metadata_height
-│   │   │   │   ├── exposure_factor
-│   │   │   │   ├── framerate_factor
-│   │   │   │   ├── gain_factor
-│   │   │   │   ├── inherent_gain
-│   │   │   │   ├── lane_polarity
-│   │   │   │   ├── line_length
-│   │   │   │   ├── max_exp_time
-│   │   │   │   ├── max_framerate
-│   │   │   │   ├── max_gain_val
-│   │   │   │   ├── max_hdr_ratio
-│   │   │   │   ├── mclk_khz
-│   │   │   │   ├── mclk_multiplier
-│   │   │   │   ├── min_exp_time
-│   │   │   │   ├── min_framerate
-│   │   │   │   ├── min_gain_val
-│   │   │   │   ├── min_hdr_ratio
-│   │   │   │   ├── mode_type
-│   │   │   │   ├── name
-│   │   │   │   ├── num_lanes
-│   │   │   │   ├── phy_mode
-│   │   │   │   ├── pix_clk_hz
-│   │   │   │   ├── pixel_phase
-│   │   │   │   ├── readout_orientation
-│   │   │   │   ├── step_exp_time
-│   │   │   │   ├── step_framerate
-│   │   │   │   ├── step_gain_val
-│   │   │   │   └── tegra_sinterface
-│   │   │   ├── name
-│   │   │   ├── phandle
-│   │   │   ├── physical_h
-│   │   │   ├── physical_w
-│   │   │   ├── ports
-│   │   │   │   ├── #address-cells
-│   │   │   │   ├── name
-│   │   │   │   ├── port@0
-│   │   │   │   │   ├── endpoint
-│   │   │   │   │   │   ├── bus-width
-│   │   │   │   │   │   ├── name
-│   │   │   │   │   │   ├── phandle
-│   │   │   │   │   │   ├── port-index
-│   │   │   │   │   │   └── remote-endpoint
-│   │   │   │   │   ├── name
-│   │   │   │   │   └── reg
-│   │   │   │   └── #size-cells
-│   │   │   ├── reg
-│   │   │   ├── reset-gpios
-│   │   │   ├── sensor_model
-│   │   │   ├── status
-│   │   │   └── use_sensor_mode_id
+│   │   ├── name
+│   │   ├── phandle
 │   │   ├── reg
 │   │   ├── #size-cells
 │   │   └── status
 │   ├── i2c@1
 │   │   ├── #address-cells
-│   │   ├── name
-│   │   ├── phandle
-│   │   ├── rbpcv2_imx219_c@10
+│   │   ├── ap_cam_c@1b
 │   │   │   ├── compatible
+│   │   │   ├── def-addr
 │   │   │   ├── devnode
+│   │   │   ├── gmsl-link
+│   │   │   │   ├── csi-mode
+│   │   │   │   ├── dst-csi-port
+│   │   │   │   ├── name
+│   │   │   │   ├── num-lanes
+│   │   │   │   ├── serdes-csi-link
+│   │   │   │   ├── src-csi-port
+│   │   │   │   ├── streams
+│   │   │   │   ├── st-vc
+│   │   │   │   └── vc-id
 │   │   │   ├── mode0
 │   │   │   │   ├── active_h
 │   │   │   │   ├── active_w
 │   │   │   │   ├── cil_settletime
 │   │   │   │   ├── csi_pixel_bit_depth
-│   │   │   │   ├── default_exp_time
-│   │   │   │   ├── default_framerate
-│   │   │   │   ├── default_gain
 │   │   │   │   ├── discontinuous_clk
 │   │   │   │   ├── dpcm_enable
 │   │   │   │   ├── embedded_metadata_height
-│   │   │   │   ├── exposure_factor
-│   │   │   │   ├── framerate_factor
-│   │   │   │   ├── gain_factor
 │   │   │   │   ├── inherent_gain
 │   │   │   │   ├── lane_polarity
 │   │   │   │   ├── line_length
@@ -3891,24 +3777,16 @@
 │   │   │   │   ├── pix_clk_hz
 │   │   │   │   ├── pixel_phase
 │   │   │   │   ├── readout_orientation
-│   │   │   │   ├── step_exp_time
-│   │   │   │   ├── step_framerate
-│   │   │   │   ├── step_gain_val
-│   │   │   │   └── tegra_sinterface
+│   │   │   │   ├── tegra_sinterface
+│   │   │   │   └── vc_id
 │   │   │   ├── mode1
 │   │   │   │   ├── active_h
 │   │   │   │   ├── active_w
 │   │   │   │   ├── cil_settletime
 │   │   │   │   ├── csi_pixel_bit_depth
-│   │   │   │   ├── default_exp_time
-│   │   │   │   ├── default_framerate
-│   │   │   │   ├── default_gain
 │   │   │   │   ├── discontinuous_clk
 │   │   │   │   ├── dpcm_enable
 │   │   │   │   ├── embedded_metadata_height
-│   │   │   │   ├── exposure_factor
-│   │   │   │   ├── framerate_factor
-│   │   │   │   ├── gain_factor
 │   │   │   │   ├── inherent_gain
 │   │   │   │   ├── lane_polarity
 │   │   │   │   ├── line_length
@@ -3929,24 +3807,16 @@
 │   │   │   │   ├── pix_clk_hz
 │   │   │   │   ├── pixel_phase
 │   │   │   │   ├── readout_orientation
-│   │   │   │   ├── step_exp_time
-│   │   │   │   ├── step_framerate
-│   │   │   │   ├── step_gain_val
-│   │   │   │   └── tegra_sinterface
+│   │   │   │   ├── tegra_sinterface
+│   │   │   │   └── vc_id
 │   │   │   ├── mode2
 │   │   │   │   ├── active_h
 │   │   │   │   ├── active_w
 │   │   │   │   ├── cil_settletime
 │   │   │   │   ├── csi_pixel_bit_depth
-│   │   │   │   ├── default_exp_time
-│   │   │   │   ├── default_framerate
-│   │   │   │   ├── default_gain
 │   │   │   │   ├── discontinuous_clk
 │   │   │   │   ├── dpcm_enable
 │   │   │   │   ├── embedded_metadata_height
-│   │   │   │   ├── exposure_factor
-│   │   │   │   ├── framerate_factor
-│   │   │   │   ├── gain_factor
 │   │   │   │   ├── inherent_gain
 │   │   │   │   ├── lane_polarity
 │   │   │   │   ├── line_length
@@ -3967,24 +3837,16 @@
 │   │   │   │   ├── pix_clk_hz
 │   │   │   │   ├── pixel_phase
 │   │   │   │   ├── readout_orientation
-│   │   │   │   ├── step_exp_time
-│   │   │   │   ├── step_framerate
-│   │   │   │   ├── step_gain_val
-│   │   │   │   └── tegra_sinterface
+│   │   │   │   ├── tegra_sinterface
+│   │   │   │   └── vc_id
 │   │   │   ├── mode3
 │   │   │   │   ├── active_h
 │   │   │   │   ├── active_w
 │   │   │   │   ├── cil_settletime
 │   │   │   │   ├── csi_pixel_bit_depth
-│   │   │   │   ├── default_exp_time
-│   │   │   │   ├── default_framerate
-│   │   │   │   ├── default_gain
 │   │   │   │   ├── discontinuous_clk
 │   │   │   │   ├── dpcm_enable
 │   │   │   │   ├── embedded_metadata_height
-│   │   │   │   ├── exposure_factor
-│   │   │   │   ├── framerate_factor
-│   │   │   │   ├── gain_factor
 │   │   │   │   ├── inherent_gain
 │   │   │   │   ├── lane_polarity
 │   │   │   │   ├── line_length
@@ -4005,24 +3867,16 @@
 │   │   │   │   ├── pix_clk_hz
 │   │   │   │   ├── pixel_phase
 │   │   │   │   ├── readout_orientation
-│   │   │   │   ├── step_exp_time
-│   │   │   │   ├── step_framerate
-│   │   │   │   ├── step_gain_val
-│   │   │   │   └── tegra_sinterface
+│   │   │   │   ├── tegra_sinterface
+│   │   │   │   └── vc_id
 │   │   │   ├── mode4
 │   │   │   │   ├── active_h
 │   │   │   │   ├── active_w
 │   │   │   │   ├── cil_settletime
 │   │   │   │   ├── csi_pixel_bit_depth
-│   │   │   │   ├── default_exp_time
-│   │   │   │   ├── default_framerate
-│   │   │   │   ├── default_gain
 │   │   │   │   ├── discontinuous_clk
 │   │   │   │   ├── dpcm_enable
 │   │   │   │   ├── embedded_metadata_height
-│   │   │   │   ├── exposure_factor
-│   │   │   │   ├── framerate_factor
-│   │   │   │   ├── gain_factor
 │   │   │   │   ├── inherent_gain
 │   │   │   │   ├── lane_polarity
 │   │   │   │   ├── line_length
@@ -4043,12 +3897,41 @@
 │   │   │   │   ├── pix_clk_hz
 │   │   │   │   ├── pixel_phase
 │   │   │   │   ├── readout_orientation
-│   │   │   │   ├── step_exp_time
-│   │   │   │   ├── step_framerate
-│   │   │   │   ├── step_gain_val
-│   │   │   │   └── tegra_sinterface
+│   │   │   │   ├── tegra_sinterface
+│   │   │   │   └── vc_id
+│   │   │   ├── mode5
+│   │   │   │   ├── active_h
+│   │   │   │   ├── active_w
+│   │   │   │   ├── cil_settletime
+│   │   │   │   ├── csi_pixel_bit_depth
+│   │   │   │   ├── discontinuous_clk
+│   │   │   │   ├── dpcm_enable
+│   │   │   │   ├── embedded_metadata_height
+│   │   │   │   ├── inherent_gain
+│   │   │   │   ├── lane_polarity
+│   │   │   │   ├── line_length
+│   │   │   │   ├── max_exp_time
+│   │   │   │   ├── max_framerate
+│   │   │   │   ├── max_gain_val
+│   │   │   │   ├── max_hdr_ratio
+│   │   │   │   ├── mclk_khz
+│   │   │   │   ├── mclk_multiplier
+│   │   │   │   ├── min_exp_time
+│   │   │   │   ├── min_framerate
+│   │   │   │   ├── min_gain_val
+│   │   │   │   ├── min_hdr_ratio
+│   │   │   │   ├── mode_type
+│   │   │   │   ├── name
+│   │   │   │   ├── num_lanes
+│   │   │   │   ├── phy_mode
+│   │   │   │   ├── pix_clk_hz
+│   │   │   │   ├── pixel_phase
+│   │   │   │   ├── readout_orientation
+│   │   │   │   ├── tegra_sinterface
+│   │   │   │   └── vc_id
 │   │   │   ├── name
-│   │   │   ├── phandle
+│   │   │   ├── nvidia,gmsl-dser-device
+│   │   │   ├── nvidia,gmsl-ser-device
 │   │   │   ├── physical_h
 │   │   │   ├── physical_w
 │   │   │   ├── ports
@@ -4061,31 +3944,37 @@
 │   │   │   │   │   │   ├── phandle
 │   │   │   │   │   │   ├── port-index
 │   │   │   │   │   │   ├── remote-endpoint
-│   │   │   │   │   │   └── status
+│   │   │   │   │   │   └── vc-id
 │   │   │   │   │   ├── name
 │   │   │   │   │   └── reg
 │   │   │   │   └── #size-cells
+│   │   │   ├── post_crop_frame_drop
 │   │   │   ├── reg
-│   │   │   ├── reset-gpios
-│   │   │   ├── sensor_model
+│   │   │   ├── reg_mux
+│   │   │   ├── use_decibel_gain
 │   │   │   └── use_sensor_mode_id
-│   │   ├── rbpcv3_imx477_c@1a
+│   │   ├── ap_cam_d@1c
 │   │   │   ├── compatible
+│   │   │   ├── def-addr
 │   │   │   ├── devnode
+│   │   │   ├── gmsl-link
+│   │   │   │   ├── csi-mode
+│   │   │   │   ├── dst-csi-port
+│   │   │   │   ├── name
+│   │   │   │   ├── num-lanes
+│   │   │   │   ├── serdes-csi-link
+│   │   │   │   ├── src-csi-port
+│   │   │   │   ├── streams
+│   │   │   │   ├── st-vc
+│   │   │   │   └── vc-id
 │   │   │   ├── mode0
 │   │   │   │   ├── active_h
 │   │   │   │   ├── active_w
 │   │   │   │   ├── cil_settletime
 │   │   │   │   ├── csi_pixel_bit_depth
-│   │   │   │   ├── default_exp_time
-│   │   │   │   ├── default_framerate
-│   │   │   │   ├── default_gain
 │   │   │   │   ├── discontinuous_clk
 │   │   │   │   ├── dpcm_enable
 │   │   │   │   ├── embedded_metadata_height
-│   │   │   │   ├── exposure_factor
-│   │   │   │   ├── framerate_factor
-│   │   │   │   ├── gain_factor
 │   │   │   │   ├── inherent_gain
 │   │   │   │   ├── lane_polarity
 │   │   │   │   ├── line_length
@@ -4106,24 +3995,16 @@
 │   │   │   │   ├── pix_clk_hz
 │   │   │   │   ├── pixel_phase
 │   │   │   │   ├── readout_orientation
-│   │   │   │   ├── step_exp_time
-│   │   │   │   ├── step_framerate
-│   │   │   │   ├── step_gain_val
-│   │   │   │   └── tegra_sinterface
+│   │   │   │   ├── tegra_sinterface
+│   │   │   │   └── vc_id
 │   │   │   ├── mode1
 │   │   │   │   ├── active_h
 │   │   │   │   ├── active_w
 │   │   │   │   ├── cil_settletime
 │   │   │   │   ├── csi_pixel_bit_depth
-│   │   │   │   ├── default_exp_time
-│   │   │   │   ├── default_framerate
-│   │   │   │   ├── default_gain
 │   │   │   │   ├── discontinuous_clk
 │   │   │   │   ├── dpcm_enable
 │   │   │   │   ├── embedded_metadata_height
-│   │   │   │   ├── exposure_factor
-│   │   │   │   ├── framerate_factor
-│   │   │   │   ├── gain_factor
 │   │   │   │   ├── inherent_gain
 │   │   │   │   ├── lane_polarity
 │   │   │   │   ├── line_length
@@ -4144,12 +4025,131 @@
 │   │   │   │   ├── pix_clk_hz
 │   │   │   │   ├── pixel_phase
 │   │   │   │   ├── readout_orientation
-│   │   │   │   ├── step_exp_time
-│   │   │   │   ├── step_framerate
-│   │   │   │   ├── step_gain_val
-│   │   │   │   └── tegra_sinterface
+│   │   │   │   ├── tegra_sinterface
+│   │   │   │   └── vc_id
+│   │   │   ├── mode2
+│   │   │   │   ├── active_h
+│   │   │   │   ├── active_w
+│   │   │   │   ├── cil_settletime
+│   │   │   │   ├── csi_pixel_bit_depth
+│   │   │   │   ├── discontinuous_clk
+│   │   │   │   ├── dpcm_enable
+│   │   │   │   ├── embedded_metadata_height
+│   │   │   │   ├── inherent_gain
+│   │   │   │   ├── lane_polarity
+│   │   │   │   ├── line_length
+│   │   │   │   ├── max_exp_time
+│   │   │   │   ├── max_framerate
+│   │   │   │   ├── max_gain_val
+│   │   │   │   ├── max_hdr_ratio
+│   │   │   │   ├── mclk_khz
+│   │   │   │   ├── mclk_multiplier
+│   │   │   │   ├── min_exp_time
+│   │   │   │   ├── min_framerate
+│   │   │   │   ├── min_gain_val
+│   │   │   │   ├── min_hdr_ratio
+│   │   │   │   ├── mode_type
+│   │   │   │   ├── name
+│   │   │   │   ├── num_lanes
+│   │   │   │   ├── phy_mode
+│   │   │   │   ├── pix_clk_hz
+│   │   │   │   ├── pixel_phase
+│   │   │   │   ├── readout_orientation
+│   │   │   │   ├── tegra_sinterface
+│   │   │   │   └── vc_id
+│   │   │   ├── mode3
+│   │   │   │   ├── active_h
+│   │   │   │   ├── active_w
+│   │   │   │   ├── cil_settletime
+│   │   │   │   ├── csi_pixel_bit_depth
+│   │   │   │   ├── discontinuous_clk
+│   │   │   │   ├── dpcm_enable
+│   │   │   │   ├── embedded_metadata_height
+│   │   │   │   ├── inherent_gain
+│   │   │   │   ├── lane_polarity
+│   │   │   │   ├── line_length
+│   │   │   │   ├── max_exp_time
+│   │   │   │   ├── max_framerate
+│   │   │   │   ├── max_gain_val
+│   │   │   │   ├── max_hdr_ratio
+│   │   │   │   ├── mclk_khz
+│   │   │   │   ├── mclk_multiplier
+│   │   │   │   ├── min_exp_time
+│   │   │   │   ├── min_framerate
+│   │   │   │   ├── min_gain_val
+│   │   │   │   ├── min_hdr_ratio
+│   │   │   │   ├── mode_type
+│   │   │   │   ├── name
+│   │   │   │   ├── num_lanes
+│   │   │   │   ├── phy_mode
+│   │   │   │   ├── pix_clk_hz
+│   │   │   │   ├── pixel_phase
+│   │   │   │   ├── readout_orientation
+│   │   │   │   ├── tegra_sinterface
+│   │   │   │   └── vc_id
+│   │   │   ├── mode4
+│   │   │   │   ├── active_h
+│   │   │   │   ├── active_w
+│   │   │   │   ├── cil_settletime
+│   │   │   │   ├── csi_pixel_bit_depth
+│   │   │   │   ├── discontinuous_clk
+│   │   │   │   ├── dpcm_enable
+│   │   │   │   ├── embedded_metadata_height
+│   │   │   │   ├── inherent_gain
+│   │   │   │   ├── lane_polarity
+│   │   │   │   ├── line_length
+│   │   │   │   ├── max_exp_time
+│   │   │   │   ├── max_framerate
+│   │   │   │   ├── max_gain_val
+│   │   │   │   ├── max_hdr_ratio
+│   │   │   │   ├── mclk_khz
+│   │   │   │   ├── mclk_multiplier
+│   │   │   │   ├── min_exp_time
+│   │   │   │   ├── min_framerate
+│   │   │   │   ├── min_gain_val
+│   │   │   │   ├── min_hdr_ratio
+│   │   │   │   ├── mode_type
+│   │   │   │   ├── name
+│   │   │   │   ├── num_lanes
+│   │   │   │   ├── phy_mode
+│   │   │   │   ├── pix_clk_hz
+│   │   │   │   ├── pixel_phase
+│   │   │   │   ├── readout_orientation
+│   │   │   │   ├── tegra_sinterface
+│   │   │   │   └── vc_id
+│   │   │   ├── mode5
+│   │   │   │   ├── active_h
+│   │   │   │   ├── active_w
+│   │   │   │   ├── cil_settletime
+│   │   │   │   ├── csi_pixel_bit_depth
+│   │   │   │   ├── discontinuous_clk
+│   │   │   │   ├── dpcm_enable
+│   │   │   │   ├── embedded_metadata_height
+│   │   │   │   ├── inherent_gain
+│   │   │   │   ├── lane_polarity
+│   │   │   │   ├── line_length
+│   │   │   │   ├── max_exp_time
+│   │   │   │   ├── max_framerate
+│   │   │   │   ├── max_gain_val
+│   │   │   │   ├── max_hdr_ratio
+│   │   │   │   ├── mclk_khz
+│   │   │   │   ├── mclk_multiplier
+│   │   │   │   ├── min_exp_time
+│   │   │   │   ├── min_framerate
+│   │   │   │   ├── min_gain_val
+│   │   │   │   ├── min_hdr_ratio
+│   │   │   │   ├── mode_type
+│   │   │   │   ├── name
+│   │   │   │   ├── num_lanes
+│   │   │   │   ├── phy_mode
+│   │   │   │   ├── pix_clk_hz
+│   │   │   │   ├── pixel_phase
+│   │   │   │   ├── readout_orientation
+│   │   │   │   ├── tegra_sinterface
+│   │   │   │   └── vc_id
 │   │   │   ├── name
-│   │   │   ├── phandle
+│   │   │   ├── nvidia,gmsl-dser-device
+│   │   │   ├── nvidia,gmsl-ser-device
 │   │   │   ├── physical_h
 │   │   │   ├── physical_w
 │   │   │   ├── ports
@@ -4161,15 +4161,44 @@
 │   │   │   │   │   │   ├── name
 │   │   │   │   │   │   ├── phandle
 │   │   │   │   │   │   ├── port-index
-│   │   │   │   │   │   └── remote-endpoint
+│   │   │   │   │   │   ├── remote-endpoint
+│   │   │   │   │   │   └── vc-id
 │   │   │   │   │   ├── name
 │   │   │   │   │   └── reg
 │   │   │   │   └── #size-cells
+│   │   │   ├── post_crop_frame_drop
 │   │   │   ├── reg
-│   │   │   ├── reset-gpios
-│   │   │   ├── sensor_model
-│   │   │   ├── status
+│   │   │   ├── reg_mux
+│   │   │   ├── use_decibel_gain
 │   │   │   └── use_sensor_mode_id
+│   │   ├── max9295_c@40
+│   │   │   ├── compatible
+│   │   │   ├── name
+│   │   │   ├── nvidia,gmsl-dser-device
+│   │   │   ├── phandle
+│   │   │   └── reg
+│   │   ├── max9295_d@60
+│   │   │   ├── compatible
+│   │   │   ├── name
+│   │   │   ├── nvidia,gmsl-dser-device
+│   │   │   ├── phandle
+│   │   │   └── reg
+│   │   ├── max9295_prim_c@62
+│   │   │   ├── compatible
+│   │   │   ├── is-prim-ser
+│   │   │   ├── name
+│   │   │   ├── phandle
+│   │   │   └── reg
+│   │   ├── max9296_c@48
+│   │   │   ├── compatible
+│   │   │   ├── csi-mode
+│   │   │   ├── max-src
+│   │   │   ├── name
+│   │   │   ├── phandle
+│   │   │   ├── reg
+│   │   │   └── reset-gpios
+│   │   ├── name
+│   │   ├── phandle
 │   │   ├── reg
 │   │   ├── #size-cells
 │   │   └── status
@@ -5790,14 +5819,6 @@
 │   ├── reg
 │   ├── reg-names
 │   └── status
-├── gpio@6000d000
-│   ├── camera-control-output-low
-│   │   ├── gpio-hog
-│   │   ├── gpios
-│   │   ├── label
-│   │   ├── name
-│   │   └── output-low
-│   └── name
 ├── gpio@c2f0000
 │   ├── compatible
 │   ├── #gpio-cells
@@ -6019,7 +6040,6 @@
 │   │   ├── #address-cells
 │   │   ├── channel@0
 │   │   │   ├── name
-│   │   │   ├── phandle
 │   │   │   ├── ports
 │   │   │   │   ├── #address-cells
 │   │   │   │   ├── name
@@ -6031,7 +6051,6 @@
 │   │   │   │   │   │   ├── port-index
 │   │   │   │   │   │   └── remote-endpoint
 │   │   │   │   │   ├── name
-│   │   │   │   │   ├── phandle
 │   │   │   │   │   └── reg
 │   │   │   │   ├── port@1
 │   │   │   │   │   ├── endpoint@1
@@ -6039,13 +6058,11 @@
 │   │   │   │   │   │   ├── phandle
 │   │   │   │   │   │   └── remote-endpoint
 │   │   │   │   │   ├── name
-│   │   │   │   │   ├── phandle
 │   │   │   │   │   └── reg
 │   │   │   │   └── #size-cells
 │   │   │   └── reg
 │   │   ├── channel@1
 │   │   │   ├── name
-│   │   │   ├── phandle
 │   │   │   ├── ports
 │   │   │   │   ├── #address-cells
 │   │   │   │   ├── name
@@ -6057,7 +6074,6 @@
 │   │   │   │   │   │   ├── port-index
 │   │   │   │   │   │   └── remote-endpoint
 │   │   │   │   │   ├── name
-│   │   │   │   │   ├── phandle
 │   │   │   │   │   └── reg
 │   │   │   │   ├── port@1
 │   │   │   │   │   ├── endpoint@3
@@ -6065,22 +6081,35 @@
 │   │   │   │   │   │   ├── phandle
 │   │   │   │   │   │   └── remote-endpoint
 │   │   │   │   │   ├── name
-│   │   │   │   │   ├── phandle
+│   │   │   │   │   └── reg
+│   │   │   │   └── #size-cells
+│   │   │   └── reg
+│   │   ├── channel@2
+│   │   │   ├── name
+│   │   │   ├── ports
+│   │   │   │   ├── #address-cells
+│   │   │   │   ├── name
+│   │   │   │   ├── port@0
+│   │   │   │   │   ├── endpoint@4
+│   │   │   │   │   │   ├── bus-width
+│   │   │   │   │   │   ├── name
+│   │   │   │   │   │   ├── phandle
+│   │   │   │   │   │   ├── port-index
+│   │   │   │   │   │   └── remote-endpoint
+│   │   │   │   │   ├── name
+│   │   │   │   │   └── reg
+│   │   │   │   ├── port@1
+│   │   │   │   │   ├── endpoint@5
+│   │   │   │   │   │   ├── name
+│   │   │   │   │   │   ├── phandle
+│   │   │   │   │   │   └── remote-endpoint
+│   │   │   │   │   ├── name
 │   │   │   │   │   └── reg
 │   │   │   │   └── #size-cells
 │   │   │   └── reg
 │   │   ├── clock-names
 │   │   ├── clocks
 │   │   ├── compatible
-│   │   ├── csi_chan0
-│   │   │   ├── name
-│   │   │   └── ports
-│   │   │       ├── name
-│   │   │       └── port@0
-│   │   │           ├── endpoint@0
-│   │   │           │   ├── name
-│   │   │           │   └── port-index
-│   │   │           └── name
 │   │   ├── name
 │   │   ├── num-channels
 │   │   ├── phandle
@@ -6911,13 +6940,6 @@
 │   ├── nvidia,devname
 │   ├── reg
 │   └── status
-├── lens_imx219@RBPCV2
-│   ├── aperture
-│   ├── f_number
-│   ├── focal_length
-│   ├── hyper_focal
-│   ├── min_focus_distance
-│   └── name
 ├── mc
 │   ├── #address-cells
 │   ├── channels
@@ -8529,13 +8551,7 @@
 │   │   ├── size
 │   │   └── status
 │   ├── ranges
-│   ├── #size-cells
-│   └── vpr-carveout
-│       ├── compatible
-│       ├── name
-│       ├── phandle
-│       ├── reg
-│       └── status
+│   └── #size-cells
 ├── rtc@c2a0000
 │   ├── compatible
 │   ├── interrupt-parent
@@ -11714,6 +11730,18 @@
 │   ├── amx4_out_to_xbar
 │   ├── aon
 │   ├── aon_hsp
+│   ├── ap_cam_csi_in0
+│   ├── ap_cam_csi_in2
+│   ├── ap_cam_csi_in3
+│   ├── ap_cam_csi_out0
+│   ├── ap_cam_csi_out2
+│   ├── ap_cam_csi_out3
+│   ├── ap_cam_out0
+│   ├── ap_cam_out2
+│   ├── ap_cam_out3
+│   ├── ap_cam_vi_in0
+│   ├── ap_cam_vi_in2
+│   ├── ap_cam_vi_in3
 │   ├── arad_in_cif_ep
 │   ├── arad_out_port
 │   ├── arad_to_xbar
@@ -11748,12 +11776,6 @@
 │   ├── C7
 │   ├── camdbg_reserved
 │   ├── cam_i2c
-│   ├── cam_module0
-│   ├── cam_module0_drivernode0
-│   ├── cam_module0_drivernode1
-│   ├── cam_module1
-│   ├── cam_module1_drivernode0
-│   ├── cam_module1_drivernode1
 │   ├── cl0_0
 │   ├── cl0_1
 │   ├── cl0_2
@@ -11785,12 +11807,6 @@
 │   ├── cpu_hot_surface
 │   ├── cpu_sw_shutdown
 │   ├── cpu_sw_throttle
-│   ├── csi_chan0
-│   ├── csi_chan0_port0
-│   ├── csi_chan0_port1
-│   ├── csi_chan1
-│   ├── csi_chan1_port0
-│   ├── csi_chan1_port1
 │   ├── cv0_alert
 │   ├── cv0_hot_surface
 │   ├── cv0_sw_shutdown
@@ -11828,6 +11844,7 @@
 │   ├── dp_aux_ch1_i2c
 │   ├── dp_aux_ch2_i2c
 │   ├── dp_aux_ch3_i2c
+│   ├── dser_c
 │   ├── dspk1_cif_ep
 │   ├── dspk1_dap_ep
 │   ├── dspk1_dummy_ep
@@ -11944,10 +11961,6 @@
 │   ├── i2s6_dummy_ep
 │   ├── i2s6_port
 │   ├── i2s6_to_codec
-│   ├── imx219_cam0
-│   ├── imx219_cam1
-│   ├── imx477_cam0
-│   ├── imx477_cam1
 │   ├── ina32211_1_40
 │   ├── intc
 │   ├── iopad_defaults
@@ -12111,22 +12124,6 @@
 │   ├── qspi0
 │   ├── qspi1
 │   ├── ramoops_reserved
-│   ├── rbpcv2_imx219_csi_in0
-│   ├── rbpcv2_imx219_csi_in1
-│   ├── rbpcv2_imx219_csi_out0
-│   ├── rbpcv2_imx219_csi_out1
-│   ├── rbpcv2_imx219_out0
-│   ├── rbpcv2_imx219_out1
-│   ├── rbpcv2_imx219_vi_in0
-│   ├── rbpcv2_imx219_vi_in1
-│   ├── rbpcv3_imx477_csi_in0
-│   ├── rbpcv3_imx477_csi_in1
-│   ├── rbpcv3_imx477_csi_out0
-│   ├── rbpcv3_imx477_csi_out1
-│   ├── rbpcv3_imx477_out0
-│   ├── rbpcv3_imx477_out1
-│   ├── rbpcv3_imx477_vi_in0
-│   ├── rbpcv3_imx477_vi_in1
 │   ├── replicator_in_port0
 │   ├── replicator_out_port0
 │   ├── safetysrv_cfg
@@ -12143,6 +12140,9 @@
 │   ├── sdmmc3_e_33V_disable
 │   ├── sdmmc3_e_33V_enable
 │   ├── sdmmc4
+│   ├── ser_c
+│   ├── ser_d
+│   ├── ser_prim_c
 │   ├── sfc1_in_cif_ep
 │   ├── sfc1_out_port
 │   ├── sfc1_to_xbar
@@ -12292,8 +12292,6 @@
 │   ├── vi0_thi
 │   ├── vi1
 │   ├── vi1_thi
-│   ├── vi_port0
-│   ├── vi_port1
 │   ├── vpr
 │   ├── vrs_rtc
 │   ├── xbar_admaif10_ep
@@ -12645,40 +12643,6 @@
 │   ├── max_pixel_rate
 │   ├── min_bits_per_pixel
 │   ├── modules
-│   │   ├── module0
-│   │   │   ├── badge
-│   │   │   ├── drivernode0
-│   │   │   │   ├── devname
-│   │   │   │   ├── name
-│   │   │   │   ├── pcl_id
-│   │   │   │   ├── phandle
-│   │   │   │   └── proc-device-tree
-│   │   │   ├── drivernode1
-│   │   │   │   ├── name
-│   │   │   │   ├── pcl_id
-│   │   │   │   ├── phandle
-│   │   │   │   └── proc-device-tree
-│   │   │   ├── name
-│   │   │   ├── orientation
-│   │   │   ├── phandle
-│   │   │   └── position
-│   │   ├── module1
-│   │   │   ├── badge
-│   │   │   ├── drivernode0
-│   │   │   │   ├── devname
-│   │   │   │   ├── name
-│   │   │   │   ├── pcl_id
-│   │   │   │   ├── phandle
-│   │   │   │   └── proc-device-tree
-│   │   │   ├── drivernode1
-│   │   │   │   ├── name
-│   │   │   │   ├── pcl_id
-│   │   │   │   ├── phandle
-│   │   │   │   └── proc-device-tree
-│   │   │   ├── name
-│   │   │   ├── orientation
-│   │   │   ├── phandle
-│   │   │   └── position
 │   │   └── name
 │   ├── name
 │   ├── num_csi_lanes
@@ -12705,7 +12669,6 @@
 │       │   │   ├── port-index
 │       │   │   └── remote-endpoint
 │       │   ├── name
-│       │   ├── phandle
 │       │   └── reg
 │       ├── port@1
 │       │   ├── endpoint
@@ -12713,9 +12676,19 @@
 │       │   │   ├── name
 │       │   │   ├── phandle
 │       │   │   ├── port-index
-│       │   │   └── remote-endpoint
+│       │   │   ├── remote-endpoint
+│       │   │   └── vc-id
 │       │   ├── name
-│       │   ├── phandle
+│       │   └── reg
+│       ├── port@2
+│       │   ├── endpoint
+│       │   │   ├── bus-width
+│       │   │   ├── name
+│       │   │   ├── phandle
+│       │   │   ├── port-index
+│       │   │   ├── remote-endpoint
+│       │   │   └── vc-id
+│       │   ├── name
 │       │   └── reg
 │       └── #size-cells
 ├── tegra-carveouts
@@ -13621,4 +13594,4 @@
     ├── status
     └── vclamp-usb-supply
 
-2202 directories, 11419 files
+2202 directories, 11392 files
